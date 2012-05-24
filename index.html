@@ -39,12 +39,6 @@
 
 <body>
   <div data-yield="main"></div>
-  <div id="batman">
-    <span>Myapp</span>
-    <code>powered by</code><br />
-    <img src="/resources/batman.png" />
-    <input type="text" data-bind="window.Myapp.mission"/>
-  </div>
   <script type="text/javascript">
     if(window.location.protocol === 'file:') {
       alert("The default batman template doesn't work with file:// urls, sorry! You should run this app using batman server, or you should bundle batman with your backend server and use an asset packager. See https://github.com/Shopify/batman/wiki/Chrome for more information. Thanks for using Batman!");
